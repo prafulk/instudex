@@ -1,0 +1,1642 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family: arial;
+	font-size:13px;
+	color:#292929;
+}
+
+hr{
+    border: 0;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+.short-top{
+	background-image: url('/images/shortbg.jpg');
+	background-repeat:repeat-x;
+	min-height:41px;
+	width:100%;
+	min-width:1024px;
+}
+
+.region-short-top{
+	width:962px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#block-block-27{
+	display:inline-block;
+	width:255px;
+}
+
+#block-block-27 li{
+	list-style:none;
+	display:inline-block;
+}
+
+#block-block-27 li a{color:#cccccc; text-decoration:none; font-weight:bold;}
+#block-block-27 li a:link{}
+#block-block-27 li a:hover{color:#cccccc;}
+#block-block-27 li a:active{color:#cccccc;}
+#block-block-27 li a:visited{color:#cccccc;}
+
+.breadcrumb{display:none;}
+
+#page-title{
+	display:none;
+	
+}
+
+.page-perspage #page-title, .page-acinfo #page-title{
+    background-color: #026694;
+    color: #FFFFFF;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+
+#block-menu-menu-shortcut-college{
+    margin-left: 221px;
+    padding-top: 10px;
+}
+
+#block-menu-menu-shortcut-college li{
+	display:inline;
+	font-size: 13px;
+}
+
+#block-menu-menu-shortcut-college li a{color:#fff; font-family:"Arial"; text-transform:capitalize;text-decoration:none;}
+
+#header{
+	background-image: url('/images/headerbgmain.jpg');
+	background-repeat:repeat-x;
+	height:103px;
+	width:100%;
+	min-width:1024px;
+}
+
+.page-user-register #header{
+	background-image: url('/images/logolrbg.jpg');
+	height:213px;
+}
+
+.page-user-register #page-title{
+	display:none;
+}
+
+.custom-user-register{
+    float: right;
+    padding: 10px;
+    width: 465px;
+    margin-top:-60px;
+	overflow:hidden;
+}
+
+#title-register{
+	font-size: 20px;
+	color:#fff;
+	margin-bottom:30px;
+}
+
+.custom-user-register .form-text {
+    background-color: #F0EEF0;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px 3px 3px 3px;
+    height: 28px;
+    padding-left: 10px;
+    width: 260px;
+}
+
+.custom-user-register label{
+    float: left;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    text-align: right;
+    width: 156px;
+}
+
+.custom-user-register .description{
+	display:none;
+}
+
+.page-user-register #block-menu-menu-menu-top-right{
+    float: right;
+    margin-right: 180px;
+    margin-top: -176px;
+    width: 301px;
+}
+
+.page-user-register #block-menu-menu-menu-top-right li{
+	display:inline;
+}
+
+.page-user-register #block-menu-menu-menu-top-right li a{text-decoration:none; color:#fff;}
+
+.page-user-register .block-image{
+	width:490px;
+	float: left;
+}
+
+.page-user-register #content{
+	width: 980px;
+}
+
+.page-user-register #edit-profile-main-field-date-of-birth--2 .date-no-float label{
+	display:none;
+}
+
+.page-user-register .date-form-element-content {
+    display: inline-block;
+}
+
+.page-user-register #edit-profile-main-field-date-of-birth--2 #edit-profile-main-field-date-of-birth-und-0-value--2-datepicker-popup-0{
+	width:80px;
+	vertical-align:middle;
+	line-height:29px;
+	height:29px;
+}
+
+.page-user-register #edit-user-roles--2{
+    height: 26px;
+    padding-left: 8px;
+    padding-top: 3px;
+    width: 100px;
+}
+
+.page-user-register .form-submit{
+	float: right;
+    height: 29px;
+    width:140px;
+    margin-right: 160px;
+    margin-top: 16px;
+}
+
+.regslog{
+    color: #FFFFFF;
+    float: right;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 150px;
+    margin-top: -100px;
+    text-align: center;
+    width: 330px;
+}
+
+#page{
+	width:962px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo{
+	margin-left:200px;
+}
+
+#content{
+	width:697px;
+	float:right;
+	padding:10px
+}
+
+#sidebar-first{
+    background-color: #E6E6E6;
+    float: left;
+    width: 234px;
+}
+
+
+
+
+
+#sidebar-first .views-field-field-college-logo{
+	width:156px;
+	height:156px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#sidebar-first .views-field-field-college-logo img{
+	border: 4px solid #c6c6c6;
+}
+
+#block-views-college-left-block-block h2, #block-views-college-left-block-block-1 h2{
+	text-align:center;
+	background-color:#bcbcbc;
+	font-family:Arial;
+	font-size:12px;
+	height:20px;
+	margin-bottom:27px;
+	margin-top:27px;
+	padding-top:10px;
+}
+
+#block-views-college-left-block-block .views-field-title,  #block-views-college-left-block-block-1 .views-field-title, #block-views-college-left-block-block-2 .views-field-title{
+    margin-bottom: 10px;
+    margin-top: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.view-college-left-block .views-field-count{}
+.view-college-left-block .views-field-count .views-label{display: block; text-align: center;}
+.view-college-left-block .views-field-count .field-content{display: block; text-align: center;}
+
+
+#sidebar-first .views-field-picture{
+	width:156px;
+	height:156px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#sidebar-first .views-field-picture img{
+	border: 4px solid #c6c6c6;
+}
+
+#block-views-user-info-block-1 h2, #block-views-college-left-block-block-2 h2{
+	text-align:center;
+	background-color:#bcbcbc;
+	font-family:Arial;
+	font-size:12px;
+	height:20px;
+	margin-bottom:27px;
+	margin-top:27px;
+	padding-top:10px;
+}
+
+#block-views-user-info-block-1 .views-field-field-first-name{
+    margin-bottom: 10px;
+    margin-top: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#block-views-clone-of-user-info-block-1 h2{
+	text-align:center;
+	background-color:#bcbcbc;
+	font-family:Arial;
+	font-size:12px;
+	height:20px;
+	margin-bottom:27px;
+	margin-top:27px;
+	padding-top:10px;
+}
+
+#block-views-clone-of-user-info-block-1 .views-field-field-first-name{
+    margin-bottom: 10px;
+    margin-top: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#block-block-3{
+    float: right;
+    margin-top: 10px;
+    width: 300px;
+    font-weight:bold;
+    color:#ccc;
+    margin-left:10px;
+    text-align:right;
+}
+
+#block-block-3 a{color:#ccc; text-decoration:none;}
+#block-block-3 a:link{}
+#block-block-3 a:hover{color:#eee;}
+#block-block-3 a:active{}
+#block-block-3 a:visited{}
+
+.profilepage #about{
+	width:348px;
+	margin-top:10px;
+	float:left;
+}
+
+.profilepage #about h1{
+    background-color: #FFFFFF;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom:8px;
+    color: #626087;
+}
+
+.profilepage #about .view-studentpagefront{
+	background-color:#eeeeee;
+	padding:15px;
+	line-height:25px;
+	border:1px solid #bcbcbc;
+}
+
+.profilepage #about .view-studentpagefront .views label{
+	float:left;
+}
+
+.profilepage #about .view-studentpagefront .field-content{
+	display: inline;
+    text-align: left;
+    color:#0095da;
+}
+
+.statuses-update{
+	width:346px;
+	background-color:#eeeeee;
+	float:left;
+	border:1px solid #bcbcbc;
+	display:inline-block;
+}
+
+.statuses-form-self-update .statuses-textarea-wrapper{
+    background-color: #FFFFFF;
+    box-shadow: none;
+    width: 300px;
+    margin: 30px auto 8px;
+    width: 300px;
+}
+
+
+#statuses-box .statuses-textarea-wrapper {
+    background-color: #FFFFFF;
+    box-shadow: none;
+    margin: 30px auto 8px;
+    width: 300px;
+}
+
+.statuses-update .statuses-chars{
+	display:none;
+}
+.statuses-update .button{
+	background-image: url('/images/sharebutton.jpg');
+    background-repeat: no-repeat;
+    height: 27px;
+    text-indent: -9999px;
+    width: 76px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.statuses-subitem .fbss-comments-textarea{
+	height: 23px;
+	line-height: 23px !important;
+	padding-left: 5px;
+}
+
+.fbss-comments-show-comment-form{
+    font-size: 11px;
+    margin: -14px 0 7px;
+    padding: 0;
+}
+
+.profilepage #recentact{
+	width: 337px;
+	float: right;
+	min-height:265px;
+	margin-top:37px;
+}
+
+.profilepage #recentact h1{
+    background-color: #026694;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 11px;
+    padding-top: 10px;
+}
+
+.profilepage #recentact .view-display-id-block_2{
+    background-color: #EEEEEE;
+    border: 1px solid #BCBCBC;
+    line-height: 25px;
+    padding: 14px;
+}
+
+.profilepage #heartact{
+	width: 337px;
+	float: right;
+	min-height:265px;
+	margin-top:37px;
+}
+
+.profilepage #heartact h1{
+    background-color: #026694;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 11px;
+    padding-top: 10px;
+}
+
+.profilepage #heartact .view-display-id-block{
+    background-color: #EEEEEE;
+    border: 1px solid #BCBCBC;
+    line-height: 18px;
+    padding: 6px;
+	margin-bottom:5px;
+	min-height:217px;
+}
+
+.profilepage #heartact .view-display-id-block blockquote{
+	display:none;
+}
+
+.region-content .heartbeat-messages-wrapper ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.region-content .heartbeat-messages-wrapper ul li{
+	padding:0;
+}
+
+.page-user .profilepage h3{
+	color: #626087;
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+.view-statuses-stream{
+    line-height: 17px;
+    text-align: justify;
+    width: 450px;
+}
+
+.view-statuses-stream .username{font-size:12px; font-weight:bold;}
+
+.view-statuses-stream a{color:#3b5998; text-decoration:none;}
+.view-statuses-stream a:link{}
+.view-statuses-stream a:hover{color:#3b5998;}
+.view-statuses-stream a:active{color:#3b5998;}
+.view-statuses-stream a:visited{color:#3b5998;}
+
+.view-statuses-stream tr.even, tr.odd{
+	background-color:#ffffff;	
+}
+
+.view-statuses-stream .content{
+	width:450px;
+}
+
+.view-statuses-stream img{
+	float:left;
+	margin-right:10px;
+}
+
+.statuses-content{
+    display: inline-block;
+    width: 355px;
+	word-wrap: break-word;
+}
+
+.fbss-comments-text{
+	width:430px;
+}
+
+.statuses-comments{
+	font-size:12px;
+	border:medium none;
+	margin-top:10px;
+}
+
+.statuses-comments .statuses-textarea-wrapper{
+    border: medium none;
+    box-shadow: none;
+}
+.statuses-textarea-wrapper textarea.form-textarea{
+	height:53px;
+}
+
+.statuses-comments .statuses-textarea-wrapper textarea.form-textarea{
+    min-height: 50px;
+    line-height: 9px;
+}
+
+.statuses-comments .fbss-comments-links{
+	float: left;
+	margin-right: 10px;
+}
+
+.statuses-details{
+	font-size:10px;
+}
+
+.summery{
+    float: left;
+    margin-top: 25px;
+    width: 465px;
+}
+
+.summery h1{
+	background-color:#026694;
+	font-size:14px;
+	color:#fff;
+	font-weight:normal;
+	padding:10px;
+}
+
+.summery .field-items, .summery .field-content{
+    background-color: #EEEEEE;
+    line-height: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.node-type-college .region-content .content img{
+	border:4px solid #c6c6c6;
+}
+
+.page-user-me-edit .primary, .page-user-edit .primary{
+    font-weight: bold;
+    margin-left: 0;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-top: 10px;
+	
+}
+
+.page-user-me-edit .primary li, .page-user-edit .primary li{
+	border: 1px solid #696;
+	padding: 5px;
+	text-align: center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	/*-webkit-box-shadow: #666 0px 2px 3px;
+	-moz-box-shadow: #666 0px 2px 3px;
+	box-shadow: #666 0px 2px 3px;*/
+	background: #ECEDE8;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ECEDE8), to(#919A8D));
+	background: -webkit-linear-gradient(#ECEDE8, #919A8D);
+	background: -moz-linear-gradient(#ECEDE8, #919A8D);
+	background: -ms-linear-gradient(#ECEDE8, #919A8D);
+	background: -o-linear-gradient(#ECEDE8, #919A8D);
+	background: linear-gradient(#ECEDE8, #919A8D);
+	-pie-background: linear-gradient(#ECEDE8, #919A8D);
+	behavior: url(/PIE.htc);
+	margin-right:9px;
+   }
+
+.page-user-me-edit .primary li a, .page-user-edit .primary li a{color:#000; text-decoration:none; background: none; border:none;}
+.page-user-me-edit .primary li a:link, .page-user-edit .primary li a:link{text-decoration:none; background: none; border:none;}
+.page-user-me-edit .primary li a:visited, .page-user-edit .primary li a:visited{color:#000;}
+.page-user-me-edit .primary li a:hover, .page-user-edit .primary li a:hover{color:#eee;}
+.page-user-me-edit .primary li a:active, .page-user-edit .primary li a:active{color:#000;}
+
+
+.page-user-me-edit .form-item, .form-actions, .page-user-edit .form-item, .form-actions {
+    line-height: 20px;
+    margin-bottom: 19px;
+    margin-top: 1em;
+    width:680px;
+    height:20px;
+}
+
+.page-user-me-edit input, .page-user-edit input{
+    height: 27px;
+    padding-left: 5px;
+    padding-right: 5px;
+	border: 1px solid #696;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 2px 4px 5px rgba(50, 50, 50, 0.24);
+	-moz-box-shadow:    2px 4px 5px rgba(50, 50, 50, 0.24);
+	box-shadow:         2px 4px 5px rgba(50, 50, 50, 0.24);
+	behavior: url(/PIE.htc);
+}
+	
+.page-user-me-edit .description, .page-user-edit	.description{
+	display:none;
+}
+
+.page-user-me-edit #user-profile-form label, .page-user-edit #user-profile-form label{
+	float:left;
+	width:150px;
+}
+.page-user-me-edit #user-profile-form #edit-picture, .page-user-edit #user-profile-form #edit-picture{
+	padding: 14px 0 0;
+	margin: 0;
+	clear: both;
+}
+
+.page-user-me-edit #user-profile-form #edit-picture label, .page-user-edit #user-profile-form #edit-picture label{font-weight:bold;float:left;}
+.page-user-me-edit #user-profile-form #edit-picture legend, .page-user-edit #user-profile-form #edit-picture legend{display:none;}
+#user-profile-form #edit-picture legend{font-weight:bold;float:left;}
+
+.page-user-me-edit .password-strength, .page-user-edit .password-strength{display:none;}
+
+.page-user-me-edit #user-profile-form .user-picture, .page-user-edit #user-profile-form .user-picture{
+	border-top: 1px solid #CCCCCC;
+    margin-top: 13px;
+    padding-top: 10px;
+}
+
+.form-file{
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	height:22px !important;
+	border:none !important;
+	margin-right:10px;
+}
+
+/*
+.page-user-edit #user-profile-form{
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+background: #EEFF99;
+behavior: url(/PIE.htc);
+    margin: 0;
+    padding: 10px;
+}
+*/
+
+.page-user-me-edit fieldset.collapsible, .page-user-edit fieldset.collapsible{padding:0;}
+
+.page-user-me-edit .fieldset-legend, .page-user-edit .fieldset-legend {
+    background-color:#eee !important;
+    line-height: 27px;
+    padding-left: 15px;
+    width: 680px;
+    margin-bottom:15px;
+}
+
+.page-user-me-edit #edit-profile-main-field-date-of-birth, .page-user-edit #edit-profile-main-field-date-of-birth {display: inline;}
+.page-user-me-edit #edit-profile-main-field-date-of-birth .date-padding, .page-user-edit #edit-profile-main-field-date-of-birth .date-padding{margin:0; padding:0;}
+.page-user-me-edit #edit-profile-main-field-date-of-birth fieldset, .page-user-edit #edit-profile-main-field-date-of-birth fieldset{padding-left:0;}
+.page-user-me-edit #edit-profile-main-field-date-of-birth .form-item, .page-user-edit #edit-profile-main-field-date-of-birth .form-item{margin:0; padding:0;}
+.page-user-me-edit #edit-profile-main-field-date-of-birth-und-0-value-datepicker-popup-0, .page-user-edit #edit-profile-main-field-date-of-birth-und-0-value-datepicker-popup-0{float:none;margin:0;display:inline;}
+.fieldset-legend a{text-decoration:none;color:#3B5998;}
+.fieldset-legend a:link{}
+.fieldset-legend a:hover{color:#3B5998;}
+.fieldset-legend a:active{color:#3B5998;}
+.fieldset-legend a:visited{color:#3B5998;}
+
+#edit-profile-main-field-profile-cover-photo-und-0-upload-button{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pictureupload{
+	background-image:url('/images/imageupload.jpg');
+	background-repeat:no-repeat;
+	width:132px;
+	height:27px;
+	display: inline-block;
+	z-index: 1;
+}
+
+.new-hidden{
+	z-index: 2;
+	opacity:0;
+}
+
+.page-user-edit .form-item-files-picture-upload #edit-picture-upload input{
+	border:1px solid #ababab;
+}
+
+.image-widget{
+	width:100%;
+}
+
+.page-user-edit #edit-actions #edit-submit{padding-left:20px;padding-right:20px;margin-top:20px;}
+
+/*.page-user-edit input.form-file {
+    opacity: 0;
+    position: relative;
+    text-align: left;
+    width: 320px;
+    z-index: 2;
+}
+
+#edit-picture-upload, .page-user-edit .image-widget-data{
+    background-image: url("/images/fileup.jpg");
+    background-repeat: no-repeat;
+    height: 55px;
+    width: 100%;
+}
+
+.page-user-edit .image-widget-data .form-submit {
+    height: 28px;
+    margin: 3px 0 0 4px;
+}
+
+.page-user-edit .image-widget-data .file{
+	margin-top:40px;
+	display:inline-block;
+}
+.page-user-edit #edit-profile-main-field-profile-cover-photo-und-0-remove-button{
+	float: none;
+	margin-top: 37px;
+}
+*/
+
+.page-advanced-search .searchelements{
+	float:right;
+}
+
+.page-advanced-search h1{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+
+.page-advanced-search .view-filters{
+	background-color:#e6e6e6;
+	padding:10px;
+}
+
+.page-advanced-search .view-filters input{
+    border: 1px solid #BCBCBC;
+    height: 27px;
+}
+.page-advanced-search .views-exposed-form label{
+	font-weight:normal;
+	color:#747373;
+}
+
+.page-advanced-search .view-filters input.form-autocomplete{
+    background-position: 99% 7px;
+    background-repeat: no-repeat;
+    border: 1px solid #BCBCBC;
+    height: 27px;
+}
+
+.page-advanced-search .view-filters .form-submit {
+    background-image: url("/images/searchb.jpg");
+    border: medium none;
+    height: 27px;
+    margin-top: 17px;
+    text-indent: -9999px;
+    width: 76px;
+}
+
+.page-advanced-search .view-filters .form-radios{
+	margin-bottom:4px;
+}
+
+.page-advanced-search .view-filters .form-radios .form-item {
+    display: inline;
+    font-size: 11px;
+    margin-right: 14px;
+}
+
+.view-advanced-search .view-content{
+	background-color:#f1f1f1;
+}
+
+.view-advanced-search .view-content .views-field-picture{
+	width: 75px;
+	height:65px;
+}
+
+
+.view-advanced-search .view-content .views-field-field-first-name, .view-advanced-search .view-content .views-field-field-college, .view-advanced-search .view-content .views-field-mail{
+left:100px;
+}
+
+
+
+
+#block-menu-menu-college-menu{
+    margin-top: 35px;
+}
+
+#block-menu-menu-college-menu h2{font-weight:normal; color:#292929; background-color:#bcbcbc; height:40px; line-height:40px;font-size:14px; text-align:center;}
+
+#block-menu-menu-college-menu .menu li{
+    height: 40px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #8a8a8a;
+}
+
+.menu-college-menu1052{background-image: url("/images/c1.jpg"); background-repeat:no-repeat; background-position:left;}
+.menu-college-menu1053{background-image: url("/images/c2.jpg"); background-repeat:no-repeat; background-position:left;}
+.menu-college-menu1054{background-image: url("/images/c3.jpg"); background-repeat:no-repeat; background-position:left;}
+.menu-college-menu1055{background-image: url("/images/c4.jpg"); background-repeat:no-repeat; background-position:left;}
+.menu-college-menu1056{background-image: url("/images/c5.jpg"); background-repeat:no-repeat; background-position:left;}
+
+#block-menu-menu-college-menu .menu li a{background: none repeat scroll 0 0 transparent; color: #747373;margin-left: 40px; text-decoration: none; line-height:40px;}
+#block-menu-menu-college-menu .menu li a:link{}
+#block-menu-menu-college-menu .menu li a:active{color:#747373;}
+#block-menu-menu-college-menu .menu li a:hover{color:#444444;}
+#block-menu-menu-college-menu .menu li a:visited{color:#747373;}
+
+
+
+
+#block-menu-menu-sidebar-below-image{
+    margin-bottom: 45px;
+}
+
+#block-menu-menu-sidebar-below-image .menu li{
+    height: 40px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #8a8a8a;
+}
+
+.menu-sidebar-below-image864{background-image: url("/images/1.jpg"); background-repeat:no-repeat; background-position:left;}
+.menu-sidebar-below-image868{background-image: url("/images/2.jpg"); background-repeat:no-repeat; background-position:left;}
+.menu-sidebar-below-image865{background-image: url("/images/3.jpg"); background-repeat:no-repeat; background-position:left;}
+.menu-sidebar-below-image866{background-image: url("/images/4.jpg"); background-repeat:no-repeat; background-position:left;}
+.menu-sidebar-below-image867{background-image: url("/images/5.jpg"); background-repeat:no-repeat; background-position:left;}
+
+.menu-sidebar-below-image920{background-image: url("/images/3.jpg"); background-repeat:no-repeat; background-position:left;}
+.menu-sidebar-below-image922{background-image: url("/images/4.jpg"); background-repeat:no-repeat; background-position:left;}
+.menu-sidebar-below-image921{background-image: url("/images/5.jpg"); background-repeat:no-repeat; background-position:left;}
+
+#block-menu-menu-sidebar-below-image .menu li a{background: none repeat scroll 0 0 transparent; color: #747373;margin-left: 40px; text-decoration: none; line-height:40px;}
+#block-menu-menu-sidebar-below-image .menu li a:link{}
+#block-menu-menu-sidebar-below-image .menu li a:active{color:#747373;}
+#block-menu-menu-sidebar-below-image .menu li a:hover{color:#444444;}
+#block-menu-menu-sidebar-below-image .menu li a:visited{color:#747373;}
+
+#block-menu-menu-utiulities{
+    margin-top: 5px;
+}
+
+#block-menu-menu-utiulities h2{font-weight:normal; color:#292929; background-color:#bcbcbc; height:40px; line-height:40px;font-size:14px; padding-left: 40px;}
+#block-menu-menu-utiulities .menu li{
+    height: 40px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #8a8a8a;
+}
+#block-menu-menu-utiulities .menu li a{background: none repeat scroll 0 0 transparent; color: #747373;margin-left: 40px; text-decoration: none; line-height:40px;}
+#block-menu-menu-utiulities .menu li a:link{}
+#block-menu-menu-utiulities .menu li a:active{color:#747373;}
+#block-menu-menu-utiulities .menu li a:hover{color:#444444;}
+#block-menu-menu-utiulities .menu li a:visited{color:#747373;}
+
+#block-views-college-forum-block{
+	width:700px;
+	display: inline-block;
+	margin-top:30px;
+}
+
+#block-views-5f2c38a4cb9f050d40e76bd14b48206e{
+	width:700px;
+	display: inline-block;
+	margin-top:30px;
+}
+
+#block-views-college-forum-block h2{
+    background-image: url("/images/forumhead.jpg");
+    background-repeat: no-repeat;
+    height: 36px;
+    text-indent: -9999px;
+}
+
+#block-views-5f2c38a4cb9f050d40e76bd14b48206e h2{
+    background-image: url("/images/forumheadgen.jpg");
+    background-repeat: no-repeat;
+    height: 36px;
+    text-indent: -9999px;
+}
+
+#block-views-college-forum-block .views-field-title, .view-clone-of-college-forum-general .views-field-title{width:437px; padding-left:13px;}
+
+#block-views-college-forum-block thead, .view-clone-of-college-forum-general thead{
+	height:35px;
+}
+
+#block-views-college-forum-block thead th, .view-clone-of-college-forum-general thead th{
+	font-weight: normal;
+}
+
+#block-views-college-forum-block .views-field-comment-count, .view-clone-of-college-forum-general .views-field-comment-count{padding-right: 0; text-align: center; width: 115px;}
+
+#block-views-college-forum-block .views-field-changed, .view-clone-of-college-forum-general .views-field-changed{text-align:right; padding-right:9px;}
+
+#block-views-college-forum-block tbody tr, .view-clone-of-college-forum-general tbody tr{border-bottom: 8px solid #FFFFFF; height: 38px; margin-bottom: 10px;}
+#block-views-college-forum-block tbody .odd, .view-clone-of-college-forum-general tbody .odd{background-color: #EAF3F7;}
+#block-views-college-forum-block tbody .even, .view-clone-of-college-forum-general tbody .even{background-color: #e3f6ff;}
+
+#block-views-college-forum-block a{color:#171717; text-decoration:none;}
+#block-views-college-forum-block a:link{color:#171717;}
+#block-views-college-forum-block a:hover{color:#515151;}
+#block-views-college-forum-block a:active{}
+#block-views-college-forum-block a:visited{color:#171717;}
+
+.view-clone-of-college-forum-general a{color:#171717; text-decoration:none;}
+.view-clone-of-college-forum-general a:link{color:#171717;}
+.view-clone-of-college-forum-general a:hover{color:#515151;}
+.view-clone-of-college-forum-general a:active{}
+.view-clone-of-college-forum-general a:visited{color:#171717;}
+
+
+.forum-post-panel-main {
+  margin-left: 150px; /*Set left margin to LeftColumnWidth*/
+
+/* These heights keep the AP items from jumping out of the bottom. Depending
+   on how many items you display, there, this number may need to be adjusted
+   to avoid having unnecessary white space in your posts. */
+  min-height: 100px;
+  height: auto !important;
+}
+
+.forum-post-panel-sub .author-pane{
+	margin:0;
+}
+
+#forum-topic-header{border-bottom: 4px solid #c4c4c4; margin-bottom:10px;}
+
+.forum-post-title{font-weight:bold; color:#0b96d6; font-size:14px;}
+
+.forum-posted-on{padding:0;}
+
+.forum-topic-header a, .forum-post a, .forum-comments a{color:#026694; text-decoration:none; font-size:13px;}
+
+.forum-post-panel-sub{width:125px;}
+
+.forum-post .author-joined, .forum-comments .author-joined{display:none;}
+
+.forum-post .author-pane-section .picture img, .forum-comments .author-pane-section .picture img{margin:0; padding:0; border:3px solid #c6c6c6;}
+
+.forum-post-info {
+    border-bottom: none;
+    clear: both;
+    height: 100%;
+    margin-bottom: 5px;
+    margin-top: 13px;
+}
+
+.forum-post-footer a{text-transform:capitalize;}
+
+.forum-post-footer {
+    background-color: #E9E9E9;
+    border-bottom: 1px solid #DBDBDB;
+    clear: both;
+    margin-top: 0;
+    padding-left: 5px;
+}
+
+.forum-jump-links, .forum-post-links{margin:0; padding:0;}
+#block-block-6 .add-forum{
+    float: left;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 560px;}
+#block-block-6 .add-forum a{color:#717171; text-decoration:none; }
+#block-block-7{width:300px; float:left;}
+.menu-top-profile-links .first-item{    border-right: 2px solid #EEEEEE;
+    padding-right: 5px;}
+.menu-top-profile-links{margin-left:30px;}
+.menu-top-profile-links li{display:inline;}
+.menu-top-profile-links a{color:#eee; text-decoration:none; font-weight:bold;}
+
+#block-block-8, #block-views-bulletin-view-block-1, #block-views-bulletin-view-block-2{    float: right;
+    margin-top: 25px;
+    width: 217px;}
+#block-block-8 h2, #block-views-bulletin-view-block-1 h2, #block-views-bulletin-view-block-2 h2{
+    background-color: #026694;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px;}
+
+#block-block-8 .content, #block-views-bulletin-view-block-1 .content, #block-views-bulletin-view-block-2 .content{
+    background-color: #EEEEEE;
+    line-height: 20px;
+    padding: 10px;
+    text-align: justify;
+	min-height:200px;
+}
+
+fieldset {border:none;}
+
+#edit-profile-main-field-date-of-birth--2 legend{
+    font-weight: bold;
+    margin-left: 71px;
+}
+
+#edit-profile-main-field-date-of-birth--2 .fieldset-wrapper{
+    float: right;
+    margin: -31px 179px 0 0;
+    padding: 0;
+}
+#edit-profile-main-field-date-of-birth--2 .fieldset-wrapper .date-no-float{
+	margin:0;
+	padding:0;
+}
+#edit-profile-main-field-date-of-birth--2{
+	height:35px;
+}
+
+
+.region-short-top #block-search-form{
+	display: inline-block;
+    margin-top: 7px;
+}
+
+.region-short-top #block-search-form .search-form{
+	background-color: none;
+	padding: 0;
+	border: none;
+}
+
+.region-short-top #block-search-form input{
+    border: medium none;
+    height: 19px;
+    vertical-align: middle;
+}
+
+.region-short-top .form-submit{
+	font-size:10px;
+	padding-bottom:2px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.region-short-top #edit-search-block-form--2{
+	width:200px;
+}
+
+.page-collegeview #breadcrumb{
+	display: none;
+}
+
+.page-collegeview .views-row-1 img{
+	border: 4px solid #C6C6C6;
+}
+
+#block-block-11 {
+    border-bottom: 1px solid #8A8A8A;
+    height: 40px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/1.jpg");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+#block-block-11 a{background: none repeat scroll 0 0 transparent; color: #747373;margin-left: 40px; text-decoration: none; line-height:40px;}
+#block-block-11 a:link{}
+#block-block-11 a:active{color:#747373;}
+#block-block-11 a:hover{color:#444444;}
+#block-block-11 a:visited{color:#747373;}
+
+#block-block-12 {
+    border-bottom: 1px solid #8A8A8A;
+    height: 40px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/2.jpg");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+#block-block-12 a{background: none repeat scroll 0 0 transparent; color: #747373;margin-left: 40px; text-decoration: none; line-height:40px;}
+#block-block-12 a:link{}
+#block-block-12 a:active{color:#747373;}
+#block-block-12 a:hover{color:#444444;}
+#block-block-12 a:visited{color:#747373;}
+
+.view-user-info-page{
+	background-color:#eeeeee;
+	border:1px solid #bcbcbc;
+    line-height: 23px;
+    padding: 10px;
+}
+
+.view-user-info-page .views-label{
+	float:left;
+	margin-right:12px;
+}
+
+.form-item-field-college-reference-und{
+    margin: -12px;
+    opacity: 0;
+}
+
+#edit-flag-friend-control{
+	display:none;
+}
+
+.profilepage .cover-photo img{
+	border: 4px solid #C6C6C6;
+}
+
+
+#block-views-resume-upload-block{
+	background-image: url("/images/4.jpg");
+	background-repeat:no-repeat;
+	height: 36px;
+    padding: 0;
+    border-bottom: 1px solid #8A8A8A;
+}
+
+
+#block-views-resume-upload-block a{
+	display:block;
+	    padding-left: 39px;
+    padding-top: 12px;
+}
+
+.popup-element-title{
+	background-image: none;
+}
+
+.file-icon, .file-size{
+	display:none;
+}
+
+#block-block-14, #block-block-22{
+	background-image: url("/images/2.jpg");
+	background-repeat:no-repeat;
+	height: 36px;
+    padding: 0;
+    border-bottom: 1px solid #8A8A8A;
+}
+
+
+#block-block-14 a, #block-block-22 a{
+	display:block;
+	padding-left: 39px;
+    padding-top: 12px;
+}
+
+#block-block-15, #block-block-23, #block-block-24, #block-block-25{
+	background-image: url("/images/1.jpg");
+	background-repeat:no-repeat;
+	height: 36px;
+    padding: 0;
+    border-bottom: 1px solid #8A8A8A;
+}
+
+
+#block-block-15 a, #block-block-23 a, #block-block-24 a, #block-block-25 a{
+	display:block;
+	padding-left: 39px;
+    padding-top: 12px;
+}
+
+.view-students-and-faculties .views-row{
+    background-color: #F1F1F1;
+    margin-bottom: 10px;
+	width:465px;
+	height:85px;
+}
+
+.view-students-and-faculties .views-row .views-field-field-first-name{
+	text-transform:lowercase;
+	text-transform:capitalize;
+	font-size: 12px;
+    font-weight: bold;
+	color: #3B5998;
+    text-decoration: none;
+	float:right;
+	width:385px;
+}
+
+.view-students-and-faculties .views-row img{
+	float:left;
+}
+
+.page-students-and-faculties #page-title, .page-facultylist #page-title{
+    background-color: #026694;
+    color: #FFFFFF;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.flag-follow-college{
+display:block;
+height:20px;
+width:175px;
+margin-top:20px;
+text-align: center;
+padding: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: #666 0px 2px 3px;
+-moz-box-shadow: #666 0px 2px 3px;
+box-shadow: #666 0px 2px 3px;
+background: #27E6FC;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#27E6FC), to(#0C8CBB));
+background: -webkit-linear-gradient(#27E6FC, #0C8CBB);
+background: -moz-linear-gradient(#27E6FC, #0C8CBB);
+background: -ms-linear-gradient(#27E6FC, #0C8CBB);
+background: -o-linear-gradient(#27E6FC, #0C8CBB);
+background: linear-gradient(#27E6FC, #0C8CBB);
+}
+
+.flag-follow-college a{background: none repeat scroll 0 0 transparent; color: #fff;margin-left: 10px; margin-right: 10px; text-decoration: none; line-height:21px; font-weight:bold;}
+.flag-follow-college a:link{}
+.flag-follow-college a:active{color:#fff;}
+.flag-follow-college a:hover{color:#fff;}
+.flag-follow-college a:visited{color:#fff;}
+
+#block-views-f7c446ba32945fed4ec189a34ff55638{
+    display: block;
+    float: right;
+    width: 226px;
+}
+
+.statuses-update + div {
+    clear: both;
+    display: inline-block;
+    float: left;
+}
+
+#block-views-f7c446ba32945fed4ec189a34ff55638 h2{
+    background-color: #026694;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#block-views-f7c446ba32945fed4ec189a34ff55638 .content{
+    background-color: #EEEEEE;
+    font-size: 11px;
+    padding: 5px;
+}
+
+#block-views-f7c446ba32945fed4ec189a34ff55638 .content a{color: #292929;text-decoration: none;}
+#block-views-f7c446ba32945fed4ec189a34ff55638 .content a:link{color: #292929}
+#block-views-f7c446ba32945fed4ec189a34ff55638 .content a:active{color:#292929;}
+#block-views-f7c446ba32945fed4ec189a34ff55638 .content a:hover{color:#292929;}
+#block-views-f7c446ba32945fed4ec189a34ff55638 .content a:visited{color:#292929;}
+
+#block-block-18{
+    margin-left: 151px;
+    margin-top: -20px;
+    padding-top: 0;
+    width: 175px;
+    z-index: 9999;
+}
+
+#block-block-18 .popup-element-title{
+color:#fff;
+font-weight:bold;
+}
+
+#popup-element-0-active a{
+    font-size: 11px;
+    line-height: 19px;
+}
+
+.forum-post{
+    font-size: 15px;
+    line-height: 21px;
+    text-align: justify;
+}
+
+#forum-comments .forum-post{
+	font-size:12px;
+}
+
+
+#forum-comments .picture, #forum-comments .author-online, #forum-comments .author-flag-friend, #forum-comments .author-offline{
+ display:none;
+}
+
+#forum-comments .author-name{
+	display:block;
+}
+
+#forum-comments .author-name a{font-weight:bold;}
+
+#forum-comments .forum-post-panel-main{
+    display: block;
+    float: left;
+    margin-left: 0;
+    width:100%;
+}
+
+#forum-comments .forum-post-footer {
+    background-color: #fff;
+}
+
+#forum-comments .forum-in-reply-to, #forum-comments .forum-post-number{
+	display:none;
+}
+
+#forum-comments .forum-posted-on{
+    float: right;
+    font-size: 0.8em;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+
+#forum-comments .comment-form{
+	background-color: #eee;
+	padding-left:12px;
+	padding-right:12px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#forum-comments .comment-form .filter-wrapper{
+	display: none;
+}
+
+#forum-comments .comment-form #edit-author--2{
+	display: none;
+}
+
+#forum-comments h2{
+    background-color: #026694 !important;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.page-comment-reply .comment-form{
+	background-color: #eee;
+	padding-left:12px;
+	padding-right:12px;
+	padding-top:5px;
+	padding-bottom:5px;	
+}
+
+.comment-form label{
+	margin-bottom:4px;
+}
+
+.page-comment-reply #edit-author--2{
+	display:none;
+}
+
+.page-comment-reply .comment-form .filter-wrapper {
+	display: none;
+}
+
+
+.view-id-students_and_faculties .views-field-field-branch-of-study .field-content, .view-id-students_and_faculties .views-field-field-iam .field-content, .view-id-students_and_faculties .views-field-mail .field-content{
+	color: #3B5998;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding-left:20px;
+}
+
+.profilepage .view-clone-of-heartbeat-activity-fields-{
+    background-color: #EEEEEE;
+    border: 1px solid #BCBCBC;
+    line-height: 18px;
+    padding: 6px;
+	margin-bottom:5px;
+	min-height:217px;
+}
+
+.profilepage .view-clone-of-heartbeat-activity-fields- .views-field-created-at, .profilepage .view-clone-of-heartbeat-activity-fields- blockquote{
+	display:none;
+}
+
+.statuses-media .statuses-links{
+	float: none;
+}
+
+.statuses-media > .content{
+		overflow: visible;
+}
+
+.page-user-me-edit legend{
+/*	margin-bottom: 10px; */
+}
+
+.group-skill .field-type-text-long{
+	
+}
+
+.group-skill .field-type-text-long .form-textarea-wrapper{
+	float: left;
+    width: 434px;
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 2px 4px 5px rgba(50, 50, 50, 0.24);
+	-moz-box-shadow:    2px 4px 5px rgba(50, 50, 50, 0.24);
+	box-shadow:         2px 4px 5px rgba(50, 50, 50, 0.24);
+	behavior: url(/PIE.htc);
+	margin-bottom:25px;
+}
+
+.group-skill .field-type-text-long textarea{
+
+}
+
+.page-search #block-system-main{
+	
+}
+
+.page-user-register #block-block-11, .page-user-register #block-block-12, .page-user-register #block-block-21{
+	display:none;
+}
+
+.page-search .search-form, .page-search .search-results{
+	background-color:#eee;
+	padding:10px;
+	border:1px solid #ccc;
+}
+
+.page-search .region-content h2{    background-color: #EEEEEE; border: 1px solid #CCCCCC; font-weight: normal; padding: 10px;}
+
+.page-search .search-results a{font-weight: normal; text-decoration: none; text-transform: capitalize;color: #3B5998;}
+.page-search .search-results a:link{color: #3B5998}
+.page-search .search-results a:active{color:#292929;}
+.page-search .search-results a:hover{color:#292929;}
+.page-search .search-results a:visited{color:#3B5998;}
+
+.page-search .search-results .search-snippet-info{    border-bottom: 1px dashed #CCCCCC;
+    font-size: 12px;
+    line-height: 19px;}
+
+.page-search #block-system-main ul{    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    padding: 10px;}
+.page-search #block-system-main ul li{    font-size: 11px;
+    line-height: 24px;
+    margin-left: 13px;}
+    
+.forum-post-panel-sub .author-pane .author-pane-line{
+    	width:200px;
+    	font-size:10px;
+}
+
+.page-students-and-faculties .views-field-field-branch-of-study, .page-students-and-faculties .views-field-field-iam, 
+.page-facultylist .views-field-field-branch-of-study, .page-facultylist .views-field-field-iam,
+ .page-facultylist .views-field-field-department, .page-facultylist .views-field-field-faculty-type{margin-left:75px;}
+
+.page-facultylist .views-field-field-branch-of-study .field-content, .page-facultylist .views-field-field-iam .field-content,
+ .page-facultylist .views-field-field-department .field-content,
+  .page-facultylist .views-field-field-faculty-type .field-content{    color: #3B5998;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 20px;
+    text-transform: capitalize;}
+
+
+#block-block-21{
+	background-image: url("/images/2.jpg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #8A8A8A;
+    height: 40px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+   }
+   
+#block-block-21 a{background: none repeat scroll 0 0 transparent; color: #747373;margin-left: 40px; text-decoration: none; line-height:40px;}
+#block-block-21 a:link{}
+#block-block-21 a:active{color:#747373;}
+#block-block-21 a:hover{color:#444444;}
+#block-block-21 a:visited{color:#747373;}
+
+.block-system .view-friends .views-field-picture{
+	width:590px;
+}
+
+.block-system .view-friends .views-field-picture .user-picture{
+	float:left;
+}
+
+
+.block-system .view-friends .username{background: none repeat scroll 0 0 transparent; color: #747373; text-decoration: none;    font-weight: bold;
+    line-height: 59px;
+    margin-left: 20px;}
+.block-system .view-friends .username:link{background: none repeat scroll 0 0 transparent; color: #747373; text-decoration: none;    font-weight: bold;
+    line-height: 59px;
+    margin-left: 20px;}
+.block-system .view-friends .username:active{color:#747373;}
+.block-system .view-friends .username:hover{color:#444444;}
+.block-system .view-friends .username:visited{color:#747373;}
+
+
+.block-system .view-friends .flag{background: none repeat scroll 0 0 transparent; color: #747373; text-decoration: none;}
+.block-system .view-friends .flag:link{background: none repeat scroll 0 0 transparent; color: #747373; text-decoration: none;}
+.block-system .view-friends .flag:active{color:#747373;}
+.block-system .view-friends .flag:hover{color:#444444;}
+.block-system .view-friends .flag:visited{color:#747373;}
+
+#following-college{    
+	display: inline-block;
+    float: right;
+    width: 235px;
+}
+
+#following-college .heading h2{
+    background-color: #026694;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 11px;
+    padding-top: 10px;
+}
+
+#following-college .view-following-colleges .view-content{
+	background-color: #EEEEEE;
+    border: 1px solid #BCBCBC;
+    line-height: 18px;
+    margin-bottom: 5px;
+    min-height: 150px;
+    padding: 6px;
+}
+
+.page-user-me-edit #edit-heartbeat{display:none;}
+
+#edit-account .form-item-pass div.password-suggestions{float:left; margin-top:30px;}
+#edit-account .form-item-pass div.password-suggestions ul{margin-left:20px;}
+#edit-account .form-item-pass div.password-confirm{
+	float: none;
+    font-size: 10px;
+    margin-left: 150px;
+}
+
+#conwrapper{width:500px;margin-left:auto;margin-right:auto;}
+.no-conn{text-align:center;font-weight:bold;font-size: 20px; margin-top:20px;}
+
+.node-type-common #header{
+	background-image: url("/images/headerbg.png");
+	background-repeat: repeat-x;
+    height: 213px;
+    width: 100%;
+}
+
+.node-type-common #content{
+	width:962px;
+	float:none;
+	margin-left:auto;
+	margin-right:auto
+}
+
+.node-type-common #page-not-found .content, .node-type-common #un-verified .content, .node-type-common #un-authorized .content{
+	color: #555555;
+    line-height: 23px;
+    margin-bottom:15px;
+}
+
+.node-type-common #page-not-found h1, .node-type-common #un-verified h1, .node-type-common #un-authorized h1{
+	color: #666666;
+    margin-top: 17px;
+}
+
+.page-user-password #user-pass, .inst-user-login-form-wrapper{
+	-moz-box-shadow:0px 0px 5px 1px #dddddd;
+-webkit-box-shadow:0px 0px 5px 1px #dddddd;
+box-shadow:0px 0px 5px 1px #dddddd;
+    margin-top: 33px;
+    padding: 15px 31px;
+    width: 365px;
+    border: 1px solid #dddddd
+}
+
+.page-user-password #user-pass  .form-text, .inst-user-login-form-wrapper .form-text{
+	height: 25px;
+    margin: 5px 0;
+    width:350px;
+}
+
+.page-user-password #user-pass #edit-submit, .inst-user-login-form-wrapper #edit-submit--2{
+	    height: 30px;
+    min-width: 70px;
+}
+
+#friendlink{margin-bottom:10px;text-align: right; font-size:15px;}
+#friendlink a{color:#026694;text-decoration: none; font-weight:bold;}
+#friendlink a:link{color:#026694;}
+#friendlink a:hover{color:#026694;}
+#friendlink a:active{color:#026694;}
+#friendlink a:visited{color:#026694;}
+
+

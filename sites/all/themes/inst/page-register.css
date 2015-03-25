@@ -1,0 +1,18 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#header{
+	background-image: url('/images/headerbg.png');
+	background-repeat:repeat-x;
+	height:213px;
+	width:100%;
+}
+
+.page-user-register #header #logo, .not-logged-in #header #logo{
+	background-image: url('/images/logolr.jpg');
+	
+}
+
+

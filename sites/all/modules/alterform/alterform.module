@@ -1,0 +1,17 @@
+<?php
+/**
+ * Implements hook_formalter().
+ */
+
+function alterform_form_alter(&$form, &$form_state, $form_id) {
+ //dsm($form_id);
+ //dsm($form);
+// print "<pre>";
+// print $form_id;
+// print_r($form);
+		if($form_id=='forum_node_form'){
+			if($_GET['nid']){
+				$form['field_college_reference']['und']['#default_value']=$_GET['nid'];
+			}
+		}
+}

@@ -1,0 +1,3 @@
+name = File input type
+description = Provides a elegent style for the input type file.
+core = 7.x

@@ -1,0 +1,18 @@
+<?php
+function fileinput_form_alter(&$form, &$form_state, $form_id) {
+  if($form_id == 'user_profile_form') {
+    // add support for styling the file upload button
+    drupal_add_js('misc/jquery.filestyle.mini.js');
+
+    $form['picture']['#suffix'] = '
+<script type="text/javascript">
+  $("input[type=file]").filestyle({ 
+  image: "/'.path_to_theme().'/imageupload.jpg",
+  imageheight : 22,
+  imagewidth : 82,
+  width : 250
+});
+</script>';
+    
+  }
+}

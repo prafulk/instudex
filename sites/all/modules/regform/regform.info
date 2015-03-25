@@ -1,0 +1,4 @@
+name = Regform
+description = Module allows for custom theming of the user registration form.
+package = User interface
+core = 7.x

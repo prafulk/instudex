@@ -1,0 +1,11 @@
+name = alterform
+description = This module help you to alter forms by programatically.
+package = Custom module
+core = 7.x
+
+; Information added by drupal.org packaging script on 2012-10-17
+version = "7.x-2.2"
+core = "7.x"
+project = "Custom module"
+
+

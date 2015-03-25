@@ -1,0 +1,4 @@
+<?php
+function regform_form_user_register_form_alter(&$form, &$form_state, $form_id) {
+  $form['#theme'] = 'user_register';
+}

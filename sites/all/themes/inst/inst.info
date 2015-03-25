@@ -1,0 +1,22 @@
+name = Instu
+description = Custom theme for instudex website
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = style.css
+
+scripts[] = enhance.js
+scripts[] = fileupload.js
+scripts[] = resumepop.js
+scripts[] = jquery.reveal.js
+scripts[] = source.js
+scripts[] = show-hide-friendblock.js
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer] = Footer
+
+regions[short_top] = Short cut 
